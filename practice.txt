@@ -1,0 +1,17 @@
+Command	                             What it does
+git init	                           Start tracking a folder
+git clone <url>	                     Download a remote repo
+git status	                         What's changed right now? (use it constantly)
+git add <file> / git add .	         Stage changes
+git commit -m "msg"	                 Save a checkpoint
+git push / git pull	Upload /         download changes
+git fetch	                           Download changes without merging
+git log --oneline	                   View history
+git diff	                           See exact line changes
+git branch / git checkout -b <name>	 List / create branches
+git merge <branch>	                 Combine branches
+git remote -v	                       Show linked remote URLs
+git restore <file>	                 Undo uncommitted changes
+git reset / git revert	             Undo commits (revert is the safer one)
+git stash	                           Temporarily shelve changes
+.gitignore	                         File listing what Git should ignore (secrets, .env, keys)
